@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'test_vercel.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': '4eAfED6gFGAC1Gb-1eDa-cFDAec-*3GG',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '13180',
     }
 }
 
